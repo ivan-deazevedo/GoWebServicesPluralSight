@@ -1,5 +1,12 @@
-FROM alpine:latest
+FROM golang:1.22
 
-RUN apk update && apk add git
+# Set destination for COPY
+WORKDIR /app
 
-WORKDIR /GoWebServicesPluralSight
+# Download Go modules
+ADD . /app/
+
+EXPOSE 5000
+
+# Run
+CMD ["go", "run", "main.go"]
