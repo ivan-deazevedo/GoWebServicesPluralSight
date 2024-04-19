@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"readinglist.duffney.io/internal/data"
+	"readinglist.io/internal/data"
 )
 
 func (app *application) healthcheck(w http.ResponseWriter, r *http.Request) {

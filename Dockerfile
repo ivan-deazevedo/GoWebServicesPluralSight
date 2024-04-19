@@ -6,7 +6,7 @@ WORKDIR /app
 # Download Go modules
 ADD . /app/
 
-EXPOSE 5000
+EXPOSE 4000
 
 # Run
 CMD ["go", "run", "main.go"]
