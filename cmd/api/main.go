@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/ivan-deazevedo/GoDocker/internal/data"
 	_ "github.com/lib/pq"
-	"readinglist.io/internal/data"
 )
 
 const version = "1.0.0"

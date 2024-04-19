@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"readinglist.io/internal/data"
+	"github.com/ivan-deazevedo/GoDocker/internal/data"
 )
 
 func (app *application) healthcheck(w http.ResponseWriter, r *http.Request) {

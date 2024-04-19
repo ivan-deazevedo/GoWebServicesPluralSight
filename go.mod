@@ -1,4 +1,4 @@
-module readinglist.io
+module github.com/ivan-deazevedo/GoDocker
 
 go 1.22.2
 
